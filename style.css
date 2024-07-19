@@ -1,0 +1,80 @@
+@font-face {
+    font-family: iranyekani;
+    src: url('font/IRANYekanWebMedium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: iranyekani;
+    src: url('font/IRANYekanWebRegular.ttf');
+    font-weight: 400;
+}
+
+h2,h3,h4,h5,h6{
+    font-weight: 500;
+    font-family: iranyekani;
+    font-size: 17px;
+    margin: 0px;
+}
+h1{
+    font-family: iranyekani;
+    font-weight: 500;
+    font-size: 27px;
+    margin: 0px;
+}
+
+span,p{
+    font-weight: 400;
+    font-family: iranyekani;
+    font-size: 15px;
+    margin:10px 0px;
+}
+
+body{
+    background-color: #113946;
+}
+
+.main-container{
+    max-width: 500px;
+    display: flex;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.createtask,.deletetask{
+    padding: 10px 30px;
+    font-family: iranyekani;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+.createtask{
+    color: white;
+    background-color: #121215;
+    border: none;
+}
+.deletetask{
+    color: white;
+    background-color: #9BABB8;
+    border: none;
+}
+.deletetask:hover,.createtask:hover{
+    cursor: pointer;
+}
+.actions{
+    margin-top: 45px;
+    display: flex;
+    column-gap: 25px;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF0E4;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 25px;
+    border:solid 3px black;
+}
